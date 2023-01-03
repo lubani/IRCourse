@@ -2,10 +2,10 @@ from bs4 import BeautifulSoup
 import re
 import requests
 from transformers import BartTokenizer, BartForConditionalGeneration
-
 # Load the bart tokenizer and model
 tokenizer = BartTokenizer.from_pretrained('facebook/bart-large-cnn')
 model = BartForConditionalGeneration.from_pretrained('facebook/bart-large-cnn')
+
 
 # Define a function to summarize the text using the Bart model
 def summarize(text, num_sentences, max_length=1024):
@@ -31,7 +31,7 @@ def summarize(text, num_sentences, max_length=1024):
 
 
 # Specify the URL of the Wikipedia page
-url = "https://simple.wikipedia.org/wiki/Common_Era"
+url = "https://simple.wikipedia.org/wiki/Breast"
 
 # Send a request to the URL and store the response
 response = requests.get(url)
