@@ -40,5 +40,3 @@ To use each file, run the following commands:
 2. ```python NB.py``` for Multinomial Naive Bayes Classifier
 3. ```python main.py``` for Abstractive Summarizer
 
-### Github
-
