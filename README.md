@@ -10,8 +10,8 @@
 
 ### Authors
 
-- Luba Ira, ID 312640410, lubani@ac.sce.ac.il
-- Vladimir Younkin, ID 321319188, vladiyo@ac.sce.ac.il
+- Luba Ira, lubani@ac.sce.ac.il
+- Vladimir Younkin, vladiyo@ac.sce.ac.il
 
 ### Description
 
